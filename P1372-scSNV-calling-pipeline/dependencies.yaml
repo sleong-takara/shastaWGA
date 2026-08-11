@@ -1,0 +1,19 @@
+name: snv_calling_workflow
+channels:
+ - conda-forge
+ - bioconda
+dependencies:
+ - umap-learn
+ - pandas
+ - matplotlib
+ - scikit-learn
+ - numpy
+ - hdbscan
+ - samtools
+ - pysam
+ - bcftools
+ - r-e1071
+ - r-data.table
+ - r-ggplot2
+ - r-r.utils
+ - gatk
