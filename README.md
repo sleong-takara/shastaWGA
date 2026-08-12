@@ -12,7 +12,7 @@ The workflow primarily operates on:
 - Coverage summary reports
 - Monopogen-compatible pseudobulk inputs
 
-The scripts were developed to support WGA benchmarking, SNV pipeline validation, sequencing depth optimization, and pseudobulk coverage evaluation. 【1-7345cd】【2-e765ef】【3-a5fc0c】
+The scripts were developed to support WGA benchmarking, SNV pipeline validation, sequencing depth optimization, and pseudobulk coverage evaluation. 
 
 ---
 
@@ -74,7 +74,6 @@ subprocess
 multiprocessing
 ```
 
-【1-7345cd】
 
 ---
 
@@ -138,7 +137,6 @@ coverage_25x
 coverage_30x
 ```
 
-【1-7345cd】
 
 ## Input
 
@@ -200,7 +198,7 @@ Uses:
 samtools view -@ 16 -c
 ```
 
-to calculate BAM read counts. 【4-178f97】
+to calculate BAM read counts. 
 
 ## Usage
 
